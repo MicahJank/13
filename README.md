@@ -51,3 +51,7 @@ Gérôme is a Software Engineer at Sfeir. He's an open-source enthusiast.<br /><
 Manuel is an independent Software Engineer, creator of the [Layr framework](https://layrjs.com) and the [CodebaseShow website](https://codebase.show/).<br /><br />
 
 [![Brought to you by Thinkster](media/end.png)](https://thinkster.io)
+
+### Required authentication configuration
+
+Set `JWT_SECRET` to a strong, unique private value before starting the server or running authentication tests. Startup fails if it is missing or blank. Copy `.env.example` only when using dotenv, or set the value in the shell or hosting secret store. Rotate any formerly shared signing key before reusing a deployment; this invalidates existing sessions.
