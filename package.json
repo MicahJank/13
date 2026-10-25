@@ -119,7 +119,7 @@
     "babel-loader": "9.1.3",
     "babel-plugin-styled-components": "2.1.4",
     "css-loader": "^6.8.1",
-    "cypress": "16.2.0",
+    "cypress": "^13.3.3",
     "cypress-plugin-api": "^2.11.1",
     "cypress-wait-until": "^2.0.1",
     "eslint": "8.52.0",
